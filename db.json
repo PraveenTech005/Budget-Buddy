@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "name": "Praveen",
+      "email": "user1@gmail.com",
+      "pass": "user123",
+      "cpass": "user123",
+      "id": 1,
+      "incometxt":"",
+      "incomeamt":"10000",
+      "incomedate":"",
+      "expensetxt":"",
+      "expenseamt":"",
+      "expensedate":"",
+      "balance":""
+    },
+    {
+      "name": "Hacker",
+      "email": "user2@gmail.com",
+      "pass": "user123",
+      "cpass": "user123",
+      "id": 2
+    }
+  ]
+}

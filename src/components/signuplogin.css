@@ -1,0 +1,124 @@
+@font-face {
+    font-family: montserrat;
+    src: url(../assets/Montserrat-Regular.ttf);
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: montserrat;
+    font-weight: bold;
+    background: linear-gradient( #0aa6f4, #2a00ff);
+}
+
+.signuplogin{
+    width: 50vh;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    box-shadow: 5px 5px 1rem rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.header{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.underline{
+    width: 20%;
+    height: 5px;
+    background-color: white;
+    border-radius: 1pc;
+}
+
+.inputs{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 12%;
+    border-radius: 10pc;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.input img{
+    width: 30px;
+}
+
+
+.input input{
+    width: 80%;
+    height: 70%;
+    border: none;
+    padding: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 10pc;
+    background-color: transparent;
+}
+
+.submit-container{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.submit{
+    width: 30%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 10pc;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.submit a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.highlight{
+    background-color: #ffffff;
+    color: #0aa6f4;
+}
+
+.error::placeholder{
+    color: #f00;
+}
