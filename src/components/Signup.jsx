@@ -12,6 +12,10 @@ const Signup = () => {
     email: "",
     pass: "",
     cpass: "",
+    history: [],
+    income:0,
+    expense:0,
+    balance:0
   });
   const navigate = useNavigate();
   const [errors, seterrors] = useState({});

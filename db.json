@@ -6,20 +6,134 @@
       "pass": "user123",
       "cpass": "user123",
       "id": 1,
-      "incometxt":"",
-      "incomeamt":"10000",
-      "incomedate":"",
-      "expensetxt":"",
-      "expenseamt":"",
-      "expensedate":"",
-      "balance":""
+      "history": [
+        {
+          "reason": "Freelance",
+          "date": "03-05",
+          "income": 0,
+          "balance": 19500,
+          "expense": 11000,
+          "id": 1
+        },
+        {
+          "reason": "Salary",
+          "date": "03-05",
+          "income": 2000,
+          "balance": 10000,
+          "expense": 0,
+          "id": 2
+        },
+        {
+          "reason": "Rent",
+          "date": "03-05",
+          "income": 0,
+          "balance": 9800,
+          "expense": 2000,
+          "id": 3
+        },
+        {
+          "reason": "Food",
+          "date": "03-05",
+          "income": 30000,
+          "balance": 9500,
+          "expense": 0,
+          "id": 4
+        },
+        {
+          "reason": "Food",
+          "date": "03-05",
+          "income": 0,
+          "balance": 9500,
+          "expense": 1000,
+          "id": 5
+        },
+        {
+          "reason": "Food",
+          "date": "03-05",
+          "income": 0,
+          "balance": 9500,
+          "expense": 1000,
+          "id": 6
+        },
+        {
+          "reason": "Food",
+          "date": "03-05",
+          "income": 5000,
+          "balance": 9500,
+          "expense": 0,
+          "id": 7
+        }
+      ],
+      "income": 100000,
+      "expense": 8000,
+      "balance": 2000
     },
     {
       "name": "Hacker",
       "email": "user2@gmail.com",
       "pass": "user123",
       "cpass": "user123",
-      "id": 2
+      "id": 2,
+      "history": [
+        {
+          "reason": "Freelance",
+          "date": "03-05",
+          "income": 0,
+          "balance": 19500,
+          "expense": 11000,
+          "id": 1
+        },
+        {
+          "reason": "Salary",
+          "date": "03-05",
+          "income": 2000,
+          "balance": 10000,
+          "expense": 0,
+          "id": 2
+        },
+        {
+          "reason": "Rent",
+          "date": "03-05",
+          "income": 0,
+          "balance": 9800,
+          "expense": 2000,
+          "id": 3
+        },
+        {
+          "reason": "Food",
+          "date": "03-05",
+          "income": 30000,
+          "balance": 9500,
+          "expense": 0,
+          "id": 4
+        },
+        {
+          "reason": "Food",
+          "date": "03-05",
+          "income": 0,
+          "balance": 9500,
+          "expense": 1000,
+          "id": 5
+        },
+        {
+          "reason": "Food",
+          "date": "03-05",
+          "income": 0,
+          "balance": 9500,
+          "expense": 1000,
+          "id": 6
+        },
+        {
+          "reason": "Food",
+          "date": "03-05",
+          "income": 5000,
+          "balance": 9500,
+          "expense": 0,
+          "id": 7
+        }],
+      "income": 100000000,
+      "expense": 80000000,
+      "balance": 20000000
     }
   ]
 }

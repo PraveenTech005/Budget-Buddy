@@ -1,0 +1,93 @@
+.history {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+
+.history h2 {
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.menu{
+    display: none;
+}
+
+.bar1,
+.bar2 {
+  width: 20px;
+  height: 3px;
+  background-color: #f00;
+  margin: 3px 0;
+}
+
+.bar1{
+    transform: translate(0, 3px) rotate(45deg);
+}
+
+.bar2{
+    transform: translate(0, -3px) rotate(-45deg);
+}
+
+.cont-hist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 520px;
+    overflow-y: auto;
+}
+
+.cont-hist li{
+    list-style: none;
+    margin-top: 10px;
+    width: 90%;
+    color:#000;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.cont-hist::-webkit-scrollbar{
+    display: none;
+}
+
+.x-align{
+    margin: 0;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.li-li-align{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.li-align{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 20px;
+}
+
+.li-expense{
+    color: #f00;
+}
+
+.li-balance{
+    color: #00f;
+}
+
+.li-income{
+    color: #0f0;
+}
+
+.x-align:hover .menu{
+    display: block;
+}
