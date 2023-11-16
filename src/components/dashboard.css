@@ -26,6 +26,10 @@
     font-family: roboto;
 }
 
+.p{
+    color: #000;
+}
+
 .set-tab{
     width: 20%;
     display: flex;
@@ -72,6 +76,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-wrap: wrap;
     border-radius: 2pc;
     background-color: rgba(255, 255, 255, 0.3);
 }
@@ -158,4 +163,9 @@
 
 .align{
     padding: 1px;
+}
+
+.options a{
+    text-decoration: none;
+    color: #fff;
 }

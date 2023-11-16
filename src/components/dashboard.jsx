@@ -3,9 +3,9 @@ import axios from "axios";
 import userimg from "../assets/userimg.jpg";
 import "./dashboard.css";
 import exitimg from "../assets/exit.png";
-import { Link } from "react-router-dom";
 import History from "./history";
-import Linechart from "./chart"
+import Linechart from "./chart";
+import { Link } from "react-router-dom";
 
 const Dashboard = ({ userId }) => {
   const [user, setUser] = useState(null);
@@ -24,8 +24,6 @@ const Dashboard = ({ userId }) => {
 
     fetchUserData();
   }, [userId]);
-  
-
 
   return (
     <div>
@@ -39,7 +37,12 @@ const Dashboard = ({ userId }) => {
             </div>
             <div className="cont-set-tab options">
               <h3>DashBoard</h3>
-              <h3>Budget & Expenses</h3>
+              <h3>
+                <Link to={`/${userId}/budgetexpense`}>Budget & Expenses</Link>
+              </h3>
+              <h3>
+                <Link to={`/${userId}/upidemo`}>UPI DEMO Interface</Link>
+              </h3>
             </div>
             <div className="cont-set-tab signout">
               <Link to="/login">
@@ -51,42 +54,34 @@ const Dashboard = ({ userId }) => {
           <div className="main">
             <div className="cont-main-div">
               <div className="cont-main chart cont-chart">
-                <Linechart userId={userId}/>
+                <Linechart userId={userId} />
               </div>
               <div className="cont-main review">
                 <div className="review-align">
                   <div className="cont-review income">
                     <h3>Total Income</h3>
-                    <div className="align">
-                      {user.income}
-                      </div>
+                    <div className="align">{user.income}</div>
                   </div>
                   <div className="cont-review expense">
                     <h3>Total Expense</h3>
-                    <div className="align">
-                      {user.expense}
-                      </div>
+                    <div className="align">{user.expense}</div>
                   </div>
                 </div>
                 <div className="review-align">
                   <div className="cont-review balance">
                     <h3>Total Balance</h3>
-                    <div className="align">
-                      {user.balance}
-                      </div>
+                    <div className="align">{user.balance}</div>
                   </div>
                   <div className="cont-review upi">
                     <h3>UPI Transactions</h3>
-                    <div className="align">
-                      {user.balance}
-                      </div>
+                    <div className="align">{user.upi}</div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="cont-main-div">
               <div className="cont-main cont-history">
-                <History userId={userId}/>
+                <History userId={userId} />
               </div>
             </div>
           </div>

@@ -2,8 +2,9 @@ import Signup from './components/Signup';
 import LoadScreen from './components/loading';
 import Login from './components/login';
 import Dashboard from './components/dashboard';
-import Budget from './components/budgetexpense';
 import { BrowserRouter, Routes, Route, useParams } from 'react-router-dom';
+import Budgetexpense from './components/budgetexpense';
+import Upi from './components/upi';
 
 function DashboardWraper() {
   const {userId} = useParams();
@@ -12,7 +13,12 @@ function DashboardWraper() {
 
 function BudgetWraper() {
   const {userId} = useParams();
-  return <Budget userId={userId} />
+  return <Budgetexpense userId={userId} />
+}
+
+function UpiWraper() {
+  const {userId} = useParams();
+  return <Upi userId={userId} />
 }
 
 function App() {
@@ -23,7 +29,8 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/:userId/dashboard" element={<DashboardWraper />} />
-        <Route path="/:userId/BudgetExpense" element={<BudgetWraper />} />
+        <Route path="/:userId/budgetexpense" element={<BudgetWraper />} />
+        <Route path="/:userId/upidemo" element={<UpiWraper />} />
       </Routes>
     </BrowserRouter>
   );

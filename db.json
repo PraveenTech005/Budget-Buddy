@@ -1,139 +1,23 @@
 {
-  "users": [
-    {
-      "name": "Praveen",
-      "email": "user1@gmail.com",
-      "pass": "user123",
-      "cpass": "user123",
-      "id": 1,
-      "history": [
-        {
-          "reason": "Freelance",
-          "date": "03-05",
-          "income": 0,
-          "balance": 19500,
-          "expense": 11000,
-          "id": 1
-        },
-        {
-          "reason": "Salary",
-          "date": "03-05",
-          "income": 2000,
-          "balance": 10000,
-          "expense": 0,
-          "id": 2
-        },
-        {
-          "reason": "Rent",
-          "date": "03-05",
-          "income": 0,
-          "balance": 9800,
-          "expense": 2000,
-          "id": 3
-        },
-        {
-          "reason": "Food",
-          "date": "03-05",
-          "income": 30000,
-          "balance": 9500,
-          "expense": 0,
-          "id": 4
-        },
-        {
-          "reason": "Food",
-          "date": "03-05",
-          "income": 0,
-          "balance": 9500,
-          "expense": 1000,
-          "id": 5
-        },
-        {
-          "reason": "Food",
-          "date": "03-05",
-          "income": 0,
-          "balance": 9500,
-          "expense": 1000,
-          "id": 6
-        },
-        {
-          "reason": "Food",
-          "date": "03-05",
-          "income": 5000,
-          "balance": 9500,
-          "expense": 0,
-          "id": 7
-        }
-      ],
-      "income": 100000,
-      "expense": 8000,
-      "balance": 2000
-    },
-    {
-      "name": "Hacker",
-      "email": "user2@gmail.com",
-      "pass": "user123",
-      "cpass": "user123",
-      "id": 2,
-      "history": [
-        {
-          "reason": "Freelance",
-          "date": "03-05",
-          "income": 0,
-          "balance": 19500,
-          "expense": 11000,
-          "id": 1
-        },
-        {
-          "reason": "Salary",
-          "date": "03-05",
-          "income": 2000,
-          "balance": 10000,
-          "expense": 0,
-          "id": 2
-        },
-        {
-          "reason": "Rent",
-          "date": "03-05",
-          "income": 0,
-          "balance": 9800,
-          "expense": 2000,
-          "id": 3
-        },
-        {
-          "reason": "Food",
-          "date": "03-05",
-          "income": 30000,
-          "balance": 9500,
-          "expense": 0,
-          "id": 4
-        },
-        {
-          "reason": "Food",
-          "date": "03-05",
-          "income": 0,
-          "balance": 9500,
-          "expense": 1000,
-          "id": 5
-        },
-        {
-          "reason": "Food",
-          "date": "03-05",
-          "income": 0,
-          "balance": 9500,
-          "expense": 1000,
-          "id": 6
-        },
-        {
-          "reason": "Food",
-          "date": "03-05",
-          "income": 5000,
-          "balance": 9500,
-          "expense": 0,
-          "id": 7
-        }],
-      "income": 100000000,
-      "expense": 80000000,
-      "balance": 20000000
-    }
-  ]
+  "users": [],
+  "history1": [],
+  "history2": [],
+  "history3": [],
+  "history4": [],
+  "history5": [],
+  "history6": [],
+  "history7": [],
+  "history8": [],
+  "history9": [],
+  "history10": [],
+  "history11": [],
+  "history12": [],
+  "history13": [],
+  "history14": [],
+  "history15": [],
+  "history16": [],
+  "history17": [],
+  "history18": [],
+  "history19": [],
+  "history20": []
 }

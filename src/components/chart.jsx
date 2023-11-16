@@ -19,7 +19,7 @@ const Linechart = ({userId}) => {
     const fetchUserData = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:8000/users/${userId}`
+          `http://localhost:8000/history${userId}`
         );
         setUser(response.data);
       } catch (error) {
@@ -30,11 +30,11 @@ const Linechart = ({userId}) => {
     fetchUserData();
   }, [userId]);
 
-  if (!user || !user.history) {
-    return <p>Loading user data...</p>;
+  if (!user || user.length === 0) {
+    return <p className="p">-X- No Transactions -X-</p>;
   }
 
-  const data = user.history;
+  const data = user;
 
   return (
     <div className="cont-main chart">
@@ -56,6 +56,7 @@ const Linechart = ({userId}) => {
           <Legend />
           <Line type="monotone" dataKey="expense" stroke="#f00" />
           <Line type="monotone" dataKey="balance" stroke="#00f" />
+          <Line type="monotone" dataKey="upi" stroke="#0f0" />
         </LineChart>
       </ResponsiveContainer>
     </div>
